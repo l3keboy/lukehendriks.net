@@ -1,7 +1,7 @@
 {
   "name": "lukehendriks.net",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.3",
+  "private": false,
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -14,7 +14,10 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
     "react-typing-animation": "^1.6.2",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "nth-check": ">=2.0.1",
+    "immer": ">=9.0.6", 
+    "node-fetch": ">=2.6.1"
   },
   "scripts": {
     "start": "craco start",
