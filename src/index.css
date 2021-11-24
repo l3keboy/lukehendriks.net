@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: gotham-rounded-bold;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-Bold.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-bolditalic;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-BoldItalic.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-book;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-Book.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-bookitalic;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-BookItalic.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-light;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-Light.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-lightitalic;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-LightItalic.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-medium;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-Medium.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-mediumitalic;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-MediumItalic.otf') format("opentype");
+    font-weight: bold;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+  }
+
+body::-webkit-scrollbar-track {
+    background: #FBFEF9;
+  }
+
+body::-webkit-scrollbar-thumb {
+    background-color: #7678ED;
+  }
+
+div::-webkit-scrollbar {
+    width: 2px;
+  }
+
+div::-webkit-scrollbar-track {
+    background: #FBFEF9;
+  }
+
+div::-webkit-scrollbar-thumb {
+    background-color: #0D1B2A;
+  }
+
+#footer-wave {
+    width: 100%;
+    aspect-ratio: 900/235;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/wave.svg");
+}
