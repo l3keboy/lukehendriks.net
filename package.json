@@ -1,6 +1,7 @@
 {
   "name": "lukehendriks_net",
-  "version": "1.0.4",
+  "version": "1.0.5",
+  "homepage": "https://lukehendriks.net",
   "private": false,
   "dependencies": {
     "@craco/craco": "^6.3.0",
