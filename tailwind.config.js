@@ -1,6 +1,6 @@
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  // darkMode: false, // or 'media' or 'class'
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -76,6 +76,9 @@ module.exports = {
       "footer1-small": "10px",
       "footer2-small": "8px",
     },
+  },
+  variants: {
+    extend: {},
   },
   plugins: [],
 }
