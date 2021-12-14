@@ -16,7 +16,7 @@ const SkillsBox = (props) => {
                 <div id="skills-title-box" className="font-gotham-rounded-medium bg-light_accent w-20 md:w-28 lg:w-36 flex">
                     <div id="skills-title" className="m-auto">{props.skills_title}</div>
                 </div>
-                <div id="skills-skilled-box" className="bg-yellow-500 font-gotham-rounded-bookitalic flex flex-end w-40 md:w-52 lg:w-96">
+                <div id="skills-skilled-box" className="bg-orange-400 font-gotham-rounded-bookitalic flex flex-end w-40 md:w-52 lg:w-96">
                     <div id="skills-skilled" className="ml-auto my-auto pr-1">Beginner</div>
                 </div>            
               </div>
