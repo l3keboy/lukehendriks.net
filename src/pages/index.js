@@ -18,8 +18,7 @@ const Webpages = () => {
                 <Route path = "/projecten" component = {Projects} />
                 {/* <Route path = "/privacy" component = {Privacy} />
                 <Route path = "/gebruiksvoorwaarden" component = {TermsOfUse} /> */}
-                <Route path = "/404" component = {Error404} />
-                <Route component={Error404} />
+                <Route path = "*" component = {Error404} />
             </Switch>
         </Router>
     );
