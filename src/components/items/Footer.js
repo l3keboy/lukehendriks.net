@@ -25,17 +25,17 @@ const Footer = () => {
                             <div id="footer-top-content-links-website-about" className="w-36 pt-4 text-center m-auto md:pt-0 md:px-1 lg:w-44">
                                 <p id="footer-top-content-links-website-about-title" className="font-gotham-rounded-book text-body-small lg:text-body-large">Over mij</p>
                                 <p id="footer-top-content-links-website-about-description" className="pb-1">Kom meer over mij als persoon te weten.</p>
-                                <button id="footer-top-content-links-website-about-button" onClick={()=> history.push('/over-mij')} className="border-light_accent border-2 rounded-xl px-4 py-1">Meer</button>
+                                <button id="footer-about-read-more" onClick={()=> history.push('/over-mij')} className="border-light_accent border-2 rounded-xl px-4 py-1">Meer</button>
                             </div>
                             <div id="footer-top-content-links-website-experience" className="w-36 pt-4 text-center m-auto md:pt-0 md:px-1 lg:w-44">
                                 <p id="footer-top-content-links-website-experience-title" className="font-gotham-rounded-book text-body-small lg:text-body-large">Ervaring</p>
                                 <p id="footer-top-content-links-website-experience-description" className="pb-1">Bekijk mijn werk en opleidingen.</p>
-                                <button id="footer-top-content-links-website-experience-button" onClick={()=> history.push('/ervaring')} className="border-light_accent border-2 rounded-xl px-4 py-1">Meer</button>
+                                <button id="footer-experience-read-more" onClick={()=> history.push('/ervaring')} className="border-light_accent border-2 rounded-xl px-4 py-1">Meer</button>
                             </div>
                             <div id="footer-top-content-links-website-projects" className="w-36 pt-4 text-center m-auto md:pt-0 md:px-1 lg:w-44">
                                 <p id="footer-top-content-links-website-projects-title" className="font-gotham-rounded-book text-body-small lg:text-body-large">Projecten</p>
                                 <p id="footer-top-content-links-website-projects-description" className="pb-1">Bekijk verschillende projecten van mij.</p>
-                                <button id="footer-top-content-links-website-projects-button" onClick={()=> history.push('/projecten')} className="border-light_accent border-2 rounded-xl px-4 py-1">Meer</button>
+                                <button id="footer-projects-read-more" onClick={()=> history.push('/projecten')} className="border-light_accent border-2 rounded-xl px-4 py-1">Meer</button>
                             </div>
                         </div>
                     </div>

@@ -30,7 +30,7 @@ const ExperiencePreview = () => {
                         </div>
                     </div>
                     <div id="experience-content-items-button" className="z-10 mb-12 lg:flex">
-                        <Button on_click={()=> history.push('/ervaring')} border_color="border-light_primary" content="Lees meer"/>
+                        <Button id="experience-school-read-more" on_click={()=> history.push('/ervaring')} border_color="border-light_primary" content="Lees meer"/>
                     </div>                    
                     <div id="experience-content-items-subtitle" className="pb-4 md:pb-8 lg:flex">
                         <label id="experience-content-items-subtitle-text" className="z-10 font-gotham-rounded-book text-center pb-4 md:pb-8 text-h3-small md:text-h3-large">Vorige werkgever</label>
@@ -49,7 +49,7 @@ const ExperiencePreview = () => {
                         </div>
                     </div>
                     <div id="experience-content-items-button" className="mb-20 lg:flex">
-                        <Button on_click={()=> history.push('/ervaring')} border_color="border-light_primary" content="Lees meer"/>
+                        <Button id="experience-work-read-more" on_click={()=> history.push('/ervaring')} border_color="border-light_primary" content="Lees meer"/>
                     </div>               
                 </div>        
             </div>

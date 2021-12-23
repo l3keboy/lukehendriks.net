@@ -29,7 +29,7 @@ const AboutPreview = () => {
                 </div>
             </div>
             <div id="about-content-button-container" className="flex max-w-content-small md:max-w-content-medium lg:max-w-content-large m-auto justify-center lg:justify-start mb-20">
-                <Button on_click={()=> history.push('/over-mij')} border_color="border-light_secondary" content="Lees meer"/>
+                <Button id="about-read-more" on_click={()=> history.push('/over-mij')} border_color="border-light_secondary" content="Lees meer"/>
             </div>
         </div>
     )

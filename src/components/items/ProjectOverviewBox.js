@@ -6,15 +6,15 @@ const ProjectOverviewBox = (props) => {
     let website_button
 
     if (props.github_link){
-        github_button = <a href={props.github_link}><Button on_click="" border_color="border-light_accent" content="GitHub"/></a>
+        github_button = <a href={props.github_link}><Button id="github-button" on_click="" border_color="border-light_accent" content="GitHub"/></a>
     } else {
-        github_button = <a href className="opacity-50"><Button on_click="" border_color="border-light_accent" content="GitHub" is_disabled={true}/></a>  
+        github_button = <a href className="opacity-50"><Button id="github-button-disabled" on_click="" border_color="border-light_accent" content="GitHub" is_disabled={true}/></a>  
     }
 
     if (props.website_link){
-        website_button = <a href={props.website_link}><Button on_click="" border_color="border-light_secondary" content="Website"/></a>
+        website_button = <a href={props.website_link}><Button id="website-button" on_click="" border_color="border-light_secondary" content="Website"/></a>
     } else {
-        website_button = <a href className="opacity-50"><Button on_click="" border_color="border-light_secondary" content="Website" is_disabled={true}/></a>  
+        website_button = <a href className="opacity-50"><Button id="website-button-disabled" on_click="" border_color="border-light_secondary" content="Website" is_disabled={true}/></a>  
     }
 
     return (
