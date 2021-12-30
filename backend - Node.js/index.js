@@ -20,7 +20,7 @@ app.use(function(req, res, next) {
   });
 
 // MAIN //
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
     res.json({message: "lukehendriks.net API endpoint"})
 })
 

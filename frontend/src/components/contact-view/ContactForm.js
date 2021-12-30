@@ -30,9 +30,9 @@ const ContactForm = () => {
         const token = await executeRecaptcha('verify');
 
         if (stage === "dev") {
-            const response = axios.post(process.env.REACT_APP_DEV_BACKEND + "/api/validate_recaptcha_v3", {token: token})
+            const response = axios.post(process.env.REACT_APP_DEV_BACKEND + "/validate_recaptcha_v3", {token: token})
             if ((await response).data.response === "success") {
-                const response = axios.post(process.env.REACT_APP_DEV_BACKEND + "/api/contact_mail", {sender_name: name, sender_email: email, sender_subject: subject, sender_message: message})
+                const response = axios.post(process.env.REACT_APP_DEV_BACKEND + "/contact_mail", {sender_name: name, sender_email: email, sender_subject: subject, sender_message: message})
                 if ((await response).data.response.status === "success") {
                     toggleClassSuccess()
                 } else {
@@ -42,9 +42,9 @@ const ContactForm = () => {
                 toggleClassError()
             }
         } else {
-            const response = axios.post(process.env.REACT_APP_PROD_BACKEND + "/api/validate_recaptcha_v3", {token: token})
+            const response = axios.post(process.env.REACT_APP_PROD_BACKEND + "/validate_recaptcha_v3", {token: token})
             if ((await response).data.response === "success") {
-                const response = axios.post(process.env.REACT_APP_PROD_BACKEND + "/api/contact_mail", {sender_name: name, sender_email: email, sender_subject: subject, sender_message: message})
+                const response = axios.post(process.env.REACT_APP_PROD_BACKEND + "/contact_mail", {sender_name: name, sender_email: email, sender_subject: subject, sender_message: message})
                 if ((await response).data.response.status === "success") {
                     toggleClassSuccess()
                 } else {

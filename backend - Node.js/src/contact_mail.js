@@ -52,7 +52,7 @@ module.exports = function(app) {
     });
     
     // MAIN //
-    app.post("/api/contact_mail", (req, res) => {
+    app.post("/contact_mail", (req, res) => {
         const sender_name = req.body.sender_name;
         const sender_email = req.body.sender_email;
         const sender_subject = req.body.sender_subject;

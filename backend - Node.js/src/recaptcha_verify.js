@@ -12,7 +12,7 @@ module.exports = function(app) {
     });
 
     // MAIN //
-    app.post("/api/validate_recaptcha_v3", (req, res) => {
+    app.post("/validate_recaptcha_v3", (req, res) => {
         const secret = process.env.REACT_APP_RECAPTCHA_SECRET_KEY;
         const token = req.body.token;
         const url = `${process.env.REACT_APP_RECAPTCHA_URL}?secret=${secret}&response=${token}`;
