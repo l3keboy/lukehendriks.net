@@ -3,6 +3,7 @@ Portolio website of Luke Hendriks (@l3keboy) <br>
 This website consists of a frontend and a backend:
 - <strong>Frontend:</strong> written using [React.js](https://reactjs.org/) and [Tailwind CSS](https://tailwindcss.com/);
 - <strong>Backend - Node.js:</strong> written using [Node.js](https://nodejs.org/en/);
+- <strong>Backend - Lumen:</strong> written using [Lumen](https://lumen.laravel.com/);
 
 ## Functions
 This website has different functions/implementations:
