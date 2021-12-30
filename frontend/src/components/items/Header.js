@@ -29,6 +29,8 @@ const Header = () => {
                     <li id="header-content-nav-link" className="flex md:hidden mx-auto my-0.5"><Link to="/ervaring">Ervaring</Link></li>
                     <hr className="bg-light_accent w-12 mx-auto my-0.5 h-0.5 rounded border-0 " />
                     <li id="header-content-nav-link" className="flex md:hidden mx-auto my-0.5"><Link to="/projecten">Projecten</Link></li>
+                    <hr className="bg-light_accent w-12 mx-auto my-0.5 h-0.5 rounded border-0 " />
+                    <li id="header-content-nav-link" className="flex md:hidden mx-auto my-0.5"><Link to="/contact">Contact</Link></li>
                 </div>
             </div>
         </div>

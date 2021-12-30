@@ -5,11 +5,9 @@ import { CookieBanner } from '@palmabit/react-cookie-law';
 
 function App() {
   const handleAccept = () => {
-    const measurement_id = process.env.REACT_APP_GA_MEASUREMENT_ID
-
-    ReactGA.initialize(measurement_id, {
+    ReactGA.initialize(process.env.REACT_APP_GA_MEASUREMENT_ID, {
       gtagOptions: { 
-        'anonymize_ip': true, 
+        "anonymize_ip": true, 
         "cookie_expires": 28 * 24 * 60 * 60 // 28 days (in seconds)
       }
     });
@@ -45,7 +43,6 @@ function App() {
           dialog: {}, container: {}, message: {}, policy: {}, selectPane: {}, optionWrapper: {}, optionLabel: {}, checkbox: {}, buttonWrapper: {}, button: {}
         }}
         />
-        
     </GoogleReCaptchaProvider>
   );
 }
