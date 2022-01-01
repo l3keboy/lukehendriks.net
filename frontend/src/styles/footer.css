@@ -1,0 +1,9 @@
+/* FOOTER */
+#footer-wave {
+    width: 100%;
+    aspect-ratio: 900/235;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/wave.svg");
+}

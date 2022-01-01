@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: gotham-rounded-bold;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-Bold.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-bolditalic;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-BoldItalic.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-book;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-Book.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-bookitalic;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-BookItalic.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-light;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-Light.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-lightitalic;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-LightItalic.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-medium;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-Medium.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: gotham-rounded-mediumitalic;
+    src: url('/src/fonts/gotham-rounded/GothamRounded-MediumItalic.otf') format("opentype");
+    font-weight: bold;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
