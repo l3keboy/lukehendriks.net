@@ -1,11 +1,11 @@
 import React from 'react'
-import { useHistory  } from 'react-router-dom'
+import { useNavigate  } from 'react-router-dom'
 
 import fontys_img from '../../images/experience/fontys.png'
 import isah_img from "../../images/experience/isah.png"
 
 const ExperiencePreview = () => {
-    const history = useHistory();
+    const navigate = useNavigate();
     return (
         <div id="experience">
             <div id="experience-content" className="bg-light_secondary text-light_primary text-center  flex flex-col items-center">
@@ -27,7 +27,7 @@ const ExperiencePreview = () => {
                                 <label className="font-gotham-rounded-bolditalic"> Windows en Linux</label>, <label className="font-gotham-rounded-bolditalic"> Ansible</label>, <label className="font-gotham-rounded-bolditalic"> Kubernetes</label>, <label className="font-gotham-rounded-bolditalic"> PRTG</label>, <label className="font-gotham-rounded-bolditalic"> Zabbix</label>, <label className="font-gotham-rounded-bolditalic"> 3CX</label>, <label className="font-gotham-rounded-bolditalic"> ELK Stack</label>, en nog meer!  
                                 </label>
                                 <div id="experience-content-items-button" className="z-10 mb-12 lg:flex">
-                                    <button id="experience-school-read-more" onClick={()=> history.push('/ervaring')} className="hover:bg-light_primary hover:text-light_secondary border-light_primary text-body-small mt-4 md:text-body-large border-2 rounded-xl px-4 py-1">Lees meer</button>
+                                    <button id="experience-school-read-more" onClick={()=> navigate('/ervaring')} className="hover:bg-light_primary hover:text-light_secondary border-light_primary text-body-small mt-4 md:text-body-large border-2 rounded-xl px-4 py-1">Lees meer</button>
                                 </div>      
                         </div>
                     </div>              
@@ -46,7 +46,7 @@ const ExperiencePreview = () => {
                                 Gedurende de stageperiode heb ik het erg naar mijn zin gehad en erg veel geleerd, zowel met betrekking op de techniek als op de professionele vaardigheden (zoals onderzoeken, documentatie en communicatie).
                                 </label>
                                 <div id="experience-content-items-button" className="mb-20 lg:flex">
-                                    <button id="experience-school-read-more" onClick={()=> history.push('/ervaring')} className="hover:bg-light_primary hover:text-light_secondary border-light_primary text-body-small mt-4 md:text-body-large border-2 rounded-xl px-4 py-1">Lees meer</button>
+                                    <button id="experience-school-read-more" onClick={()=> navigate('/ervaring')} className="hover:bg-light_primary hover:text-light_secondary border-light_primary text-body-small mt-4 md:text-body-large border-2 rounded-xl px-4 py-1">Lees meer</button>
                                 </div>               
                         </div>
                     </div>

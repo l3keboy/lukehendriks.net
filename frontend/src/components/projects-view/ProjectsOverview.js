@@ -4,6 +4,7 @@ import ProjectOverviewBox from '../items/ProjectOverviewBox'
 import lukehendriksnet_img from "../../images/projects/lukehendriks_net.png"
 import husqy_img from "../../images/projects/husqy.png"
 import nietveelbe_img from "../../images/projects/nietveel_be.png"
+import victreebot_img from "../../images/projects/VictreeBot.png"
 
 const ProjectsOverview = () => {
     return (
@@ -18,6 +19,8 @@ const ProjectsOverview = () => {
                     description="Lukehendriks.net, deze site, is een website geschreven met behulp van React.js. De site wordt gebruikt als persoonlijk portfolio voor mij!" />
                     <ProjectOverviewBox image={nietveelbe_img} alt="https://nietveel.be" title="Nietveel.be"  github_link="https://github.com/l3keboy/nietveel.be" website_link="https://nietveel.be"
                     description="Nietveel.be is een website geschreven met behulp van Laravel. Deze site is gebruikt om kennis te maken en ervaring op te doen met Laravel. Nietveel.be kent verschillende functionaliteiten, van reCAPTCHA V3 tot aan het versturen van een e-mail en van variabele tekst tot aan dark mode."/>
+                    <ProjectOverviewBox image={victreebot_img} alt="VictreeBot" title="VictreeBot"  github_link="" website_link=""
+                    description="VictreeBot is een Discord bot welke jou en je Pokémon GO community samen brengt. Met VictreeBot kunnen Raids gedeeld worden en kun je aangeven of je meehelpt. Ook kent VictreeBot server specifieke profielen voor gebruikers om bijvoorbeeld Friend Codes met elkaar te delen."/>
                 </div>
             </div>
         </div>
