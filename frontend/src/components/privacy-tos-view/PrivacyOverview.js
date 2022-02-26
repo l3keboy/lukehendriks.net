@@ -18,15 +18,14 @@ const PrivacyOverview = () => {
 
                     <label id="privacy-content-preview-container-cookies" className="text-h4-small md:text-h4-large font-gotham-rounded-book">Cookies</label>
                     <label id="privacy-content-preview-container-cookies-description" className="mb-5">
-                    Deze website maakt uitsluitend gebruik van essentiële cookies. Deze cookies worden gebruikt voor de verificatie bij het invullen van het contactformulier en bij het
-                     versturen van de analytische data m.b.t. de prestaties van de website. 
+                    Deze website maakt uitsluitend gebruik van essentiële cookies. Deze cookies worden gebruikt voor de verificatie bij het invullen van het contactformulier. 
                     </label>
 
-                    <label id="privacy-content-preview-container-ga" className="text-h4-small md:text-h4-large font-gotham-rounded-book">Google Analytics</label>
+                    {/* <label id="privacy-content-preview-container-ga" className="text-h4-small md:text-h4-large font-gotham-rounded-book">Google Analytics</label>
                     <label id="privacy-content-preview-container-ga-description" className="mb-5">
                     We gebruiken Google Analytics om bij te houden hoe bezoekers deze website gebruiken. Er is samen met Google Inc. (Google) een verwerkersovereenkomst afgesloten. Verder worden
                      de gegevens geanonimiseerd en hebben wij Google niet toegestaan de verkregen Analytische informatie te gebruiken voor andere Google diensten.
-                    </label>
+                    </label> */}
 
                     <label id="privacy-content-preview-container-recaptcha" className="text-h4-small md:text-h4-large font-gotham-rounded-book">reCAPTCHA</label>
                     <label id="privacy-content-preview-container-recaptcha-description" className="mb-5">

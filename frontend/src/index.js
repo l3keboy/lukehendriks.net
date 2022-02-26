@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import './styles/footer.css';
 import "./styles/scrollbar.css"
-import "./styles/cookiebanner.css"
 import App from './App';
 import {BrowserRouter} from 'react-router-dom'
 

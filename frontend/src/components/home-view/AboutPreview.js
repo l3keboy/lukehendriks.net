@@ -1,10 +1,10 @@
 import React from 'react'
-import { useHistory  } from 'react-router-dom'
+import { useNavigate  } from 'react-router-dom'
 
 import profile_img from "../../images/Animoji.jpg"
 
 const AboutPreview = () => {
-    const history = useHistory();
+    const navigate = useNavigate();
 
     let today = new Date(),
     birth_date = new Date(`${8} ${18} ${2002}`),
@@ -28,7 +28,7 @@ const AboutPreview = () => {
                 </div>
             </div>
             <div id="about-content-button-container" className="flex max-w-content-small md:max-w-content-medium lg:max-w-content-large m-auto justify-center lg:justify-start mb-20">
-                <button id="about-read-more" onClick={()=> history.push('/over-mij')} className="hover:bg-light_secondary hover:text-light_primary border-light_secondary text-body-small mt-4 md:text-body-large border-2 rounded-xl px-4 py-1">Lees meer</button>
+                <button id="about-read-more" onClick={()=> navigate('/over-mij')} className="hover:bg-light_secondary hover:text-light_primary border-light_secondary text-body-small mt-4 md:text-body-large border-2 rounded-xl px-4 py-1">Lees meer</button>
             </div>
         </div>
     )

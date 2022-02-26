@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link, useHistory  } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
-    const history = useHistory();
     return (
         <div id="footer">
             <div id="footer-wave"></div>

@@ -13,7 +13,7 @@ const ProjectOverviewBox = (props) => {
     if (props.website_link){
         website_button = <a href={props.website_link}><button id="website-button" className="border-light_secondary text-body-small mt-4 md:text-body-large border-2 rounded-xl px-4 py-1 hover:bg-light_secondary hover:text-light_primary">Website</button></a>
     } else {
-        website_button = <a href className="opacity-50"><button id="website-button-disabled" className="border-light_accent text-body-small mt-4 md:text-body-large border-2 rounded-xl px-4 py-1 hover:cursor-not-allowed">Website</button></a>  
+        website_button = <a href className="opacity-50"><button id="website-button-disabled" className="border-light_secondary text-body-small mt-4 md:text-body-large border-2 rounded-xl px-4 py-1 hover:cursor-not-allowed">Website</button></a>  
     }
 
     return (

@@ -1,10 +1,10 @@
 import React from 'react'
 import { scroller } from 'react-scroll'
-import { useHistory  } from 'react-router-dom'
+import { useNavigate  } from 'react-router-dom'
 import Typing from 'react-typing-animation';
 
 const Hero = () => {
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const scrollToSection = () => {
         scroller.scrollTo("about", {
@@ -26,7 +26,7 @@ const Hero = () => {
                     </Typing>
                 </div>
                 <div id="hero-welcome-button-container" className="flex flex-col z-10">
-                    <button id="home-contact-button" onClick={()=> history.push('/contact')} className="hover:bg-light_accent self-center border-light_accent text-light_primary text-h3-small mt-8 md:text-h3-large border-4 rounded-xl px-4 py-1">Neem contact op!</button>
+                    <button id="home-contact-button" onClick={()=> navigate('/contact')} className="hover:bg-light_accent self-center border-light_accent text-light_primary text-h3-small mt-8 md:text-h3-large border-4 rounded-xl px-4 py-1">Neem contact op!</button>
                 </div>
             </div>
             <button id="home-contact-button" onClick={scrollToSection} className="animate-bounce text-light_accent text-h2-small md:text-h2-large pb-40 md:pb-20">\/</button>

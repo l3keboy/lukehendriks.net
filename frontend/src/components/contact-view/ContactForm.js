@@ -21,7 +21,7 @@ const ContactForm = () => {
     
     const { executeRecaptcha } = useGoogleReCaptcha();
 
-    const handle_contact_form = useCallback(async (e) => {
+    const handle_contact_form = useCallback(async (e, toggleClassError, toggleClassSuccess) => {
         e.preventDefault()
         if (!executeRecaptcha) {
             return;
