@@ -1,4 +1,4 @@
-# lukehendriks.net -- V1
+# lukehendriks.net -- v1
 Portolio website of Luke Hendriks (@l3keboy) <br>
 This website consists of a frontend and a backend:
 - <strong>Frontend:</strong> written using [React.js](https://reactjs.org/) and [Tailwind CSS](https://tailwindcss.com/);
